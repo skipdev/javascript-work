@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>What Can JavaScript Do?</h1>
+
+<p>JavaScript can change HTML attributes.</p>
+
+<p>In this case JavaScript changes the src (source) attribute of an image.</p>
+
+<img id="myImage" src="http://www.blechente.de/images/product_images/popup_images/blechspielzeug---jack-in-the-box-jester-der-clown-2234-1.jpg" style="width:100px">
+
+<br>
+<br>
+
+<button id='hello3' onclick="document.getElementById('myImage').src='https://images-na.ssl-images-amazon.com/images/I/81bTsRBjFTL._SY450_.jpg'">Pop out the Jack in the Box!</button>
+<br>
+<br>
+<button id='hello2' onclick="document.getElementById('myImage').src='http://www.blechente.de/images/product_images/popup_images/blechspielzeug---jack-in-the-box-jester-der-clown-2234-1.jpg'">Put him back in!</button>
+<br>
+<br>
+<button id='hello' onclick="document.getElementById('hello3').style.display='none';document.getElementById('hello2').style.display='none';document.getElementById('hello').style.display='none'; document.getElementById('myImage').src='https://i5.walmartimages.com/asr/ded82687-3f1a-4749-803d-61ea70c85eac_1.c8d55ecc910bc3a30830252d895719d6.jpeg'">Turn him into an elephant! (This is permanent)</button>
+</body>
+</html>

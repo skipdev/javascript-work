@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		.clear {
+		  clear: both;
+		}
+
+		#grid {
+		  width: 900px;
+		}
+
+		.grid-element {
+		  float: left;
+		}
+	</style>
+</head>
+<body>
+
+Set a variable to activate mouseout when true. When clicked, this variable turns off and mouseout stops which causes the image to stay as it is.
+
+<h1>What Can JavaScript Do?</h1>
+<p>Create a 3x3 grid of faces. When the mouse hovers over a face, change it to an alien. If the picture is clicked, it turns into an alien face permanently.</p>
+<div id="grid">
+
+  <div class="grid-element">
+    <img 
+	id="image1" 
+	src="https://s-media-cache-ak0.pinimg.com/564x/55/b8/09/55b809ed5f9c3194832fe893e479b89c.jpg" 
+	height="300" width="300"
+	onmouseover="document.getElementById('image1').src='https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTNpVweRnGhNZ-YCpZmlNRK6k4uAYS7WFrjOVSKOGEa0UImSasa'" 
+	onmouseout="document.getElementById('image1').src='https://s-media-cache-ak0.pinimg.com/564x/55/b8/09/55b809ed5f9c3194832fe893e479b89c.jpg'"
+	onclick="document.getElementById('image1').src='https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTNpVweRnGhNZ-YCpZmlNRK6k4uAYS7WFrjOVSKOGEa0UImSasa'"
+	/>
+  </div>
+
+  <div class="grid-element">
+    <img id="image2" 
+	src="https://s-media-cache-ak0.pinimg.com/564x/22/79/5d/22795df88f750961f9c7ad27a5a82b1e.jpg" 
+	height="300" width="300"
+	onmouseover="document.getElementById('image2').src='https://s-media-cache-ak0.pinimg.com/236x/0a/d6/d9/0ad6d90f308465b74f566b0236a8615a.jpg'" 
+	onmouseout="document.getElementById('image2').src='https://s-media-cache-ak0.pinimg.com/564x/22/79/5d/22795df88f750961f9c7ad27a5a82b1e.jpg'"
+	/>
+  </div>
+
+  <div class="grid-element">
+    <img 
+	id="image3" 
+	src="https://s-media-cache-ak0.pinimg.com/736x/2f/2f/45/2f2f453b4ac388233ab72795d744c07c.jpg" 
+	height="300" width="300"
+	onmouseover="document.getElementById('image3').src='https://s-media-cache-ak0.pinimg.com/originals/6c/b9/9b/6cb99b1323d8c9ae1af881dc260c3f29.jpg'" 
+	onmouseout="document.getElementById('image3').src='https://s-media-cache-ak0.pinimg.com/736x/2f/2f/45/2f2f453b4ac388233ab72795d744c07c.jpg'"
+	/>
+  </div>
+
+  <div class="grid-element">
+    <img 
+	id="image4" 
+	src="https://s-media-cache-ak0.pinimg.com/236x/f4/ba/b5/f4bab59cc5cecc994e4ddfb585bcad35.jpg" 
+	height="300" width="300"
+	onmouseover="document.getElementById('image4').src='https://s-media-cache-ak0.pinimg.com/736x/2c/93/0b/2c930b0d1f05eb8919167b70c2ff30e6.jpg'" 
+	onmouseout="document.getElementById('image4').src='https://s-media-cache-ak0.pinimg.com/236x/f4/ba/b5/f4bab59cc5cecc994e4ddfb585bcad35.jpg'"
+	/>
+  </div>
+
+  <div class="grid-element">
+    <img 
+	id="image5" 
+	src="http://s12.favim.com/orig/160324/anime-anime-boy-art-cute-Favim.com-4114672.jpg" 
+	height="300" width="300"
+	onmouseover="document.getElementById('image5').src='https://i.ytimg.com/vi/kT3-5PevrSg/maxresdefault.jpg'" 
+	onmouseout="document.getElementById('image5').src='http://s12.favim.com/orig/160324/anime-anime-boy-art-cute-Favim.com-4114672.jpg'"
+	/>
+  </div>
+
+  <div class="grid-element">
+    <img 
+	id="image6" 
+	src="http://drawingschool.net/wp-content/uploads/2016/12/anime-cute-boy-eyes-1000-images-about-cowok-ganteng-d-on-pinterest-code-geass.jpg" 
+	height="300" width="300"
+	onmouseover="document.getElementById('image6').src='https://pbs.twimg.com/profile_images/378800000796787242/1d92004d273b98dbed0d4414f9d0f080_400x400.jpeg'" 
+	onmouseout="document.getElementById('image6').src='http://drawingschool.net/wp-content/uploads/2016/12/anime-cute-boy-eyes-1000-images-about-cowok-ganteng-d-on-pinterest-code-geass.jpg'"
+	/>
+  </div>
+
+  <div class="grid-element">
+    <img 
+	id="image7" 
+	src="https://s-media-cache-ak0.pinimg.com/736x/a4/98/bc/a498bcae9e03fb89da1af65c14fca440.jpg" 
+	height="300" width="300"
+	onmouseover="document.getElementById('image7').src='http://img14.deviantart.net/bf90/i/2014/007/7/1/alien_face_by_sirgurra-d718nr3.jpg'" 
+	onmouseout="document.getElementById('image7').src='https://s-media-cache-ak0.pinimg.com/736x/a4/98/bc/a498bcae9e03fb89da1af65c14fca440.jpg'"
+	/>
+  </div>
+
+  <div class="grid-element">
+    <img 
+	id="image8" 
+	src="http://vignette1.wikia.nocookie.net/kingdomhearts3dddd/images/b/bf/Anime-cute-girl-kawaii-manga-favim.com-327609.jpg/revision/latest?cb=20131228024333" 
+	height="300" width="300"
+	onmouseover="document.getElementById('image8').src='http://pre06.deviantart.net/a82e/th/pre/i/2013/297/3/6/alien_face_by_josearias-d6rovk7.jpg'" 
+	onmouseout="document.getElementById('image8').src='http://vignette1.wikia.nocookie.net/kingdomhearts3dddd/images/b/bf/Anime-cute-girl-kawaii-manga-favim.com-327609.jpg/revision/latest?cb=20131228024333'"
+	/>
+  </div>
+
+  <div class="grid-element">
+    <img 
+	id="image9" 
+	src="https://s-media-cache-ak0.pinimg.com/736x/91/fd/a1/91fda1f0daa8c539592dcb57407c2421.jpg" 
+	height="300" width="300"
+	onmouseover="document.getElementById('image9').src='https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTK6ZALRjRBtXy57d8qZhHCdv7_zIpEheOKCpq0uCyoGSUqNrkK'" 
+	onmouseout="document.getElementById('image9').src='https://s-media-cache-ak0.pinimg.com/736x/91/fd/a1/91fda1f0daa8c539592dcb57407c2421.jpg'"
+	/>
+  </div>
+
+</div>
+
+
+
+</body>
+</html>
